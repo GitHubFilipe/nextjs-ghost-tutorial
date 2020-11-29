@@ -1,0 +1,7 @@
+/* file: /styles/Home.module.css */
+
+h2.caption {
+  color: darkviolet;
+  margin-left: 20px;
+  text-decoration: underline;
+}
