@@ -5,7 +5,7 @@ function Home() {
     <>
       <h1>My Blog</h1>
       <h2 className={styles.caption}>Checking module style here</h2>
-      <div>Welcome at ghost next.js tutorial</div>
+      <div className="bg-red-600">Welcome at ghost next.js tutorial</div>
     </>
   )
 }
