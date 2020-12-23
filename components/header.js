@@ -3,12 +3,12 @@ import Link from 'next/link'
 export default function Header({ home }) {
   return (
     <nav className="bg-gray-800 p-2 fixed z-10 top-0 w-full">
-      <div className="container mx-auto flex flex-wrap items-center">
+      <div className="container mx-auto flex flex-col flex-wrap items-center">
         <div>
           {home ? (
             <img
-              className="rounded-full w-48 border-white border-4 border-solid"
-              src="/Filipe.jpg"
+              className="rounded-full w-32 border-white border-4 border-solid"
+              src="/profilepic.jpg"
               alt="Filipe"
             />
           ) : (
@@ -16,7 +16,7 @@ export default function Header({ home }) {
               <a>
                 <img
                   className="rounded-full w-32 border-white border-4 border-solid"
-                  src="/Filipe.jpg"
+                  src="/profilepic.jpg"
                   alt="Filipe"
                 />
               </a>
