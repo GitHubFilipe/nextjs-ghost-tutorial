@@ -1,9 +1,10 @@
 import GhostContentAPI from '@tryghost/content-api'
 
 // Create API instance with site credentials
+// (replace <api url> and <content key> with your own credentials
 const api = new GhostContentAPI({
-  url: 'http://megaghost.spdns.org',
-  key: '5d04055ea1a604d18fcece4e9b',
+  url: '<api url>',
+  key: '<content key>',
   version: 'v3',
 })
 
@@ -12,6 +13,16 @@ export async function getPosts() {
     .browse({
       include: 'tags,authors',
       limit: 'all',
+    })
+    .catch((err) => {
+      console.error(err)
+    })
+}
+
+export async function getSinglePost(postSlug) {
+  return await api.posts
+    .read({
+      slug: postSlug,
     })
     .catch((err) => {
       console.error(err)

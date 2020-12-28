@@ -1,0 +1,71 @@
+.blogInnerHTML {
+  @apply w-11/12 py-16;
+}
+
+.blogInnerHTML h1 {
+  @apply text-3xl text-gray-600 font-bold py-4;
+}
+
+.blogInnerHTML h2 {
+  @apply text-2xl text-gray-600 font-bold py-4;
+}
+
+.blogInnerHTML h3 {
+  @apply text-xl text-gray-600 font-bold py-4;
+}
+
+.blogInnerHTML p {
+  @apply text-lg text-gray-700 py-px;
+}
+
+.blogInnerHTML ul,
+ol {
+  @apply my-4;
+}
+
+.blogInnerHTML ol li {
+  @apply list-decimal ml-10;
+}
+
+.blogInnerHTML ul li {
+  @apply ml-10;
+  list-style-type: square;
+}
+
+pre {
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.blogInnerHTML pre {
+  @apply bg-gray-700 p-4 my-8 rounded-lg;
+}
+
+.blogInnerHTML code.language-javascript {
+  @apply text-yellow-200 text-sm;
+}
+
+.blogInnerHTML a {
+  @apply text-blue-700 font-light italic;
+}
+
+.blogInnerHTML img {
+  @apply m-8;
+}
+
+.blogInnerHTML blockquote p {
+  @apply bg-blue-100 text-blue-800 font-serif italic p-2 my-8 rounded-md;
+}
+
+.blogInnerHTML blockquote p::before {
+  @apply text-2xl text-blue-600 font-extrabold font-serif mx-2;
+  content: '\0022';
+}
+
+.blogInnerHTML blockquote p::after {
+  @apply text-2xl text-blue-600 font-extrabold font-serif mx-2;
+  content: '\0022';
+}
