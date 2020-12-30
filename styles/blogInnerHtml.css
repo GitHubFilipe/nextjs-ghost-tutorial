@@ -1,5 +1,5 @@
 .blogInnerHTML {
-  @apply w-11/12 py-16;
+  @apply w-11/12 py-8;
 }
 
 .blogInnerHTML h1 {
@@ -53,7 +53,7 @@ pre {
 }
 
 .blogInnerHTML img {
-  @apply m-8;
+  @apply my-8;
 }
 
 .blogInnerHTML blockquote p {
