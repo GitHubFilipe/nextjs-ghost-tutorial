@@ -10,7 +10,7 @@
     "export": "next export"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@tryghost/content-api": "^1.4.10",
     "autoprefixer": "^10.0.4",
