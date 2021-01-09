@@ -19,6 +19,20 @@ npm run dev
 Browse [http://localhost:3000](http://localhost:3000) 
 <br/><br/>
 
+## Manual Sections
+
+* [Episode 1 - Intro](https://filipe-matos.netlify.app/posts/nextjs-ghost-1-intro)
+* Episode 2 - Setting up the development environment
+* Episode 3 - Creating Next.js project and code repository
+* Episode 4 - Styling with Vanilla CSS and Tailwind
+* Episode 5 - Creating pages and layout components
+* Episode 6 - Speaking with Ghost(s)
+* Episode 7 - Rendering blog posts
+* Episode 8 - Rendering blog pages and tags
+* Episode 9 - Build, export and publish
+* Episode 10 - Search Engine Optimization (SEO)
+<br/><br/>
+
 ## Feedback
 
 Go to [GitHub Discussions](https://github.com/GitHubFilipe/nextjs-ghost-tutorial/discussions) for feedback.
