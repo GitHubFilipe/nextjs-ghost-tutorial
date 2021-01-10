@@ -22,7 +22,7 @@ Browse [http://localhost:3000](http://localhost:3000)
 ## Manual Sections
 
 * [Episode 1 - Intro](https://filipe-matos.netlify.app/posts/nextjs-ghost-1-intro)
-* Episode 2 - Setting up the development environment
+* [Episode 2 - Setting up the development environment](https://filipe-matos.netlify.app/posts/nextjs-ghost-2-setup-dev-env)
 * Episode 3 - Creating Next.js project and code repository
 * Episode 4 - Styling with Vanilla CSS and Tailwind
 * Episode 5 - Creating pages and layout components
