@@ -1,6 +1,6 @@
 # nextjs-ghost-tutorial
-Source code for a tutorial about creating a [Next.js](https://nextjs.org/) frontend for [ghost](https://ghost.org/), a headless Content Management System (CMS).<br/>
-The article series can be found under [https://filipe-matos.netlify.app](https://filipe-matos.netlify.app)
+Codebase for a tutorial on how to create a [Next.js](https://nextjs.org/) frontend for [ghost](https://ghost.org/), a headless Content Management System (CMS).<br/>
+The article series can be seen under [https://filipe-matos.netlify.app](https://filipe-matos.netlify.app)
 
 
 ![](./public/github_socialpreview_nextjs-ghost-tutorial_1.png)
@@ -23,7 +23,7 @@ Browse [http://localhost:3000](http://localhost:3000)
 
 * [Episode 1 - Intro](https://filipe-matos.netlify.app/posts/nextjs-ghost-1-intro)
 * [Episode 2 - Setting up the development environment](https://filipe-matos.netlify.app/posts/nextjs-ghost-2-setup-dev-env)
-* Episode 3 - Creating Next.js project and code repository
+* [Episode 3 - Creating Next.js project and code repository](https://filipe-matos.netlify.app/posts/nextjs-ghost-3-create-nextjs-project)
 * Episode 4 - Styling with Vanilla CSS and Tailwind
 * Episode 5 - Creating pages and layout components
 * Episode 6 - Speaking with Ghost(s)
