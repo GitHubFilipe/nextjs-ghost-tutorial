@@ -24,7 +24,7 @@ Browse [http://localhost:3000](http://localhost:3000)
 * [Episode 1 - Intro](https://filipe-matos.netlify.app/posts/nextjs-ghost-1-intro)
 * [Episode 2 - Setting up the development environment](https://filipe-matos.netlify.app/posts/nextjs-ghost-2-setup-dev-env)
 * [Episode 3 - Creating Next.js project and code repository](https://filipe-matos.netlify.app/posts/nextjs-ghost-3-create-nextjs-project)
-* Episode 4 - Styling with Vanilla CSS and Tailwind
+* [Episode 4 - Styling with Vanilla CSS and Tailwind](https://filipe-matos.netlify.app/posts/nextjs-ghost-4-style-with-css-and-tailwind)
 * Episode 5 - Creating pages and layout components
 * Episode 6 - Speaking with Ghost(s)
 * Episode 7 - Rendering blog posts
