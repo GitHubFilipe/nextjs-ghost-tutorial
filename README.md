@@ -5,6 +5,8 @@ The article series can be seen under [https://filipe-matos.netlify.app](https://
 
 ![](./public/github_socialpreview_nextjs-ghost-tutorial_1.png)
 
+Find me on Twitter 👉️ [_Filipe_Matos](https://twitter.com/_Filipe_Matos)
+
 ## Usage
 
 ```bash
@@ -27,7 +29,7 @@ Browse [http://localhost:3000](http://localhost:3000)
 * [Episode 4 - Styling with Vanilla CSS and Tailwind](https://filipe-matos.netlify.app/posts/nextjs-ghost-4-style-with-css-and-tailwind)
 * [Episode 5 - Creating pages and layout components](https://filipe-matos.netlify.app/posts/nextjs-ghost-5-routing-and-layout-components)
 * [Episode 6 - Speaking with Ghost(s)](https://filipe-matos.netlify.app/posts/nextjs-ghost-6-speaking-with-ghost)
-* Episode 7 - Rendering blog posts
+* [Episode 7 - Render blog posts](https://filipe-matos.netlify.app/posts/nextjs-ghost-7-render-blog-posts)
 * Episode 8 - Rendering blog pages and tags
 * Episode 9 - Build, export and publish
 * Episode 10 - Search Engine Optimization (SEO)
