@@ -35,3 +35,6 @@ yarn-error.log*
 
 # ghost api key
 /api/ghost_data_private.js
+
+/.vscode
+
