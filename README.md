@@ -32,7 +32,7 @@ Browse [http://localhost:3000](http://localhost:3000)
 - [Episode 7 - Render blog posts](https://filipe-matos.netlify.app/posts/nextjs-ghost-7-render-blog-posts)
 - [Episode 8 - Rendering blog pages and tags](https://filipe-matos.netlify.app/posts/nextjs-ghost-8-render-blog-pages-and-tags)
 - [Episode 9 - Publish your blog](https://filipe-matos.netlify.app/posts/nextjs-ghost-9-publish-your-blog)
-- Episode 10 - Search Engine Optimization (SEO)
+- [Episode 10 - Search Engine Optimization (SEO)](https://filipe-matos.netlify.app/posts/nextjs-ghost-10-seo)
   <br/><br/>
 
 ## Feedback

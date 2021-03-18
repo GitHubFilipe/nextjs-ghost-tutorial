@@ -3,8 +3,37 @@ import Layout from '../../components/layout'
 import Link from 'next/link'
 
 export default function TagOverview({ tagObjects }) {
+  let _title = tagObjects.meta_title + ' - YOUR BLOG TILE'
+  let description = 'Overview of all tags used on my blog articles'
+  let facebook_handle = 'YOUR FACEBOOK HANDLE'
+  let twitter_handle = '@YOUR TWITTER HANDLE'
+  let metaObject = {
+    n_title: _title,
+    n_description: description,
+    n_HandheldFriendly: 'True',
+    n_canonical_url: 'https://YOURBLOGURL/tags/tagoverview',
+    p_site_name: 'YOUR BLOG TITLE',
+    p_og_type: 'website',
+    p_og_description: description,
+    p_og_image: '', // TODO:  create image for Tag overview
+    p_article_published_time: '',
+    p_article_modified_time: '', //
+    p_article_tag: '', //
+    p_article_publisher: 'https://www.facebook.com/' + facebook_handle,
+    n_twitter_card: 'summary_large_image',
+    n_twitter_title: _title,
+    n_twitter_description: description,
+    n_twitter_image: '', // TODO:  create image for Tag overview
+    n_twitter_label1: 'Written by',
+    n_twitter_data1: 'YOUR NAME',
+    n_twitter_label2: 'Filed under',
+    n_twitter_data2: '',
+    n_twitter_site: twitter_handle,
+    n_twitter_creator: twitter_handle,
+    n_generator: 'Filipe Matos next.js + Ghost CMS',
+  }
   return (
-    <Layout _title="Tag Overview - My Blog">
+    <Layout _metaData={metaObject}>
       <div className="my-10">
         <h2 className="py-1 mx-2 my-8 text-indigo-900 text-2xl font-bold">
           Tag Overview

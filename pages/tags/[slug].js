@@ -3,9 +3,36 @@ import Link from 'next/link'
 import Layout from '../../components/layout'
 
 export default function TagPage(tagData) {
-  let _title = tagData.tag.name + ' - My blog'
+  let _title = tagData.meta_title + ' - YOUR BLOG TILE'
+  let facebook_handle = 'YOUR FACEBOOK HANDLE'
+  let twitter_handle = '@YOUR TWITTER HANDLE'
+  let metaObject = {
+    n_title: _title,
+    n_description: tagData.tag.meta_description,
+    n_HandheldFriendly: 'True',
+    n_canonical_url: '',
+    p_og_site_name: 'YOUR BLOG TITLE',
+    p_og_type: 'website',
+    p_og_description: tagData.tag.meta_description,
+    p_og_image: tagData.tag.feature_image,
+    p_article_published_time: '',
+    p_article_modified_time: '',
+    p_article_tag: '',
+    p_article_publisher: 'https://www.facebook.com/' + facebook_handle,
+    n_twitter_card: 'summary_large_image',
+    n_twitter_title: _title,
+    n_twitter_description: tagData.tag.meta_description,
+    n_twitter_image: tagData.tag.feature_image,
+    n_twitter_label1: 'Written by',
+    n_twitter_data1: 'YOUR NAME',
+    n_twitter_label2: 'Filed under',
+    n_twitter_data2: '',
+    n_twitter_site: twitter_handle,
+    n_twitter_creator: twitter_handle,
+    n_generator: 'Filipe Matos next.js + Ghost CMS',
+  }
   return (
-    <Layout _title={_title}>
+    <Layout _metaData={metaObject}>
       <div className="my-10">
         <h2 className="py-1 mx-2 my-8  text-indigo-900 text-xl">
           Posts tagged with{' '}
