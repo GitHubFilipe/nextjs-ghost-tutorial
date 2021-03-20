@@ -1,10 +1,12 @@
 import Header from './header'
 import Footer from './footer'
 import Head from 'next/head'
+import GithubBanner from './githubbanner'
 
 export default function Layout({ home, _metaData, children }) {
   return (
     <div className="top-40 absolute min-w-full">
+      <GithubBanner /> // Delete this line to remove banner at the top
       <Header home={home} />
       <Head>
         <title>{_metaData.n_title}</title>

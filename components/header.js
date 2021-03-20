@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Header({ home }) {
   return (
-    <nav className="bg-gray-800 p-2 fixed z-10 top-0 w-full">
+    <nav className="bg-gray-800 p-2 fixed z-10 top-10 w-full">
       <div className="container mx-auto flex flex-col flex-wrap items-center">
         <div>
           {home ? (
