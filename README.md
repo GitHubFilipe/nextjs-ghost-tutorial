@@ -1,11 +1,9 @@
 # nextjs-ghost-tutorial
 
 Codebase for a tutorial on how to create a [Next.js](https://nextjs.org/) frontend for [ghost](https://ghost.org/), a headless Content Management System (CMS).<br/>
-The article series can be seen under [https://filipe-matos.netlify.app](https://filipe-matos.netlify.app)
 
 ![](./public/github_socialpreview_nextjs-ghost-tutorial_1.png)
 
-Find me on Twitter 👉️ [\_Filipe_Matos](https://twitter.com/_Filipe_Matos)
 
 ## Usage
 
